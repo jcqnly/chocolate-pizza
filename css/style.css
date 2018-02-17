@@ -33,6 +33,8 @@ footer {
 /* logo */
 header {
   background-color: yellow;
+  margin-left: 180px;
+  margin-right: 180px;
 }
 
 header img {
@@ -53,7 +55,6 @@ header nav ul {
 header nav ul li {
   list-style-type: none;
   display: inline;
-  float: top;
 }
 
 header hr {
