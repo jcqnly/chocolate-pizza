@@ -1,11 +1,16 @@
-main h1 {
+body {
   margin-left: 250px;
   margin-right: 250px;
 }
 
+main h1 {
+  margin-left:
+  margin-right:
+}
+
 main h3 {
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left:
+  margin-right: 
 }
 
 main h4 {
@@ -22,28 +27,19 @@ main img {
 }
 
 main p {
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left:
+  margin-right:
 }
 
 #container {
-  position: relative;
+  background-image: url("../img/list-bg.png");
+  columns: 2;
+  width: 900px;
 }
 
 #image {
-  position: absolute
 }
 
-#leftcolumn {
-  z-index: 100;
-  position: absolute;
-}
-
-#rightcolumn {
-  z-index: 100;
-  position: absolute;
-  float: right;
-}
 
 
 footer {
