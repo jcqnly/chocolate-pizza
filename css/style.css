@@ -1,16 +1,32 @@
 /* logo */
+header {
+  background-color: yellow;
+}
+
 header img {
   float: left;
 }
 
+header h6 {
+  float: left;
+  margin: auto;
+}
+
 header nav ul {
   list-style-type: none;
-  display: inline-block;
-  margin-top: 30px;
+  display: inline;
+  float: right;
+}
+
+header nav ul li {
+  list-style-type: none;
+  display: inline;
+  float: top;
 }
 
 header hr {
   height: 6px;
-	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+  background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
     border: 0;
+  margin-top: 30px;
 }
