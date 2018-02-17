@@ -26,6 +26,26 @@ main p {
   margin-right: 250px;
 }
 
+#container {
+  position: relative;
+}
+
+#image {
+  position: absolute
+}
+
+#leftcolumn {
+  z-index: 100;
+  position: absolute;
+}
+
+#rightcolumn {
+  z-index: 100;
+  position: absolute;
+  float: right;
+}
+
+
 footer {
   margin-left: 205px;
   margin-right: 250px;
