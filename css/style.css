@@ -1,11 +1,16 @@
-main h1 {
+body {
   margin-left: 250px;
   margin-right: 250px;
 }
 
+main h1 {
+  margin-left:
+  margin-right:
+}
+
 main h3 {
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left:
+  margin-right: 
 }
 
 main h4 {
@@ -22,9 +27,20 @@ main img {
 }
 
 main p {
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left:
+  margin-right:
 }
+
+#container {
+  background-image: url("../img/list-bg.png");
+  columns: 2;
+  width: 900px;
+}
+
+#image {
+}
+
+
 
 footer {
   margin-left: 205px;
