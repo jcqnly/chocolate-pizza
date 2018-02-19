@@ -1,51 +1,85 @@
 body {
   width: 905px;
   margin: auto;
-}
-
-#container {
-  background-image: url("../img/list-bg.png");
-  columns: 2;
-  width: 900px;
-}
-
-header h2 {
-  font-family: 'Pacifico', cursive;
-}
-
-header h6 {
-  font-family: 'Roboto', sans-serif;
+  padding-top: 30px;
 }
 
 header img {
+  display: inline;
   float: left;
+}
+
+#headerText {
+  float: left;
+  padding-left: 8px;
+}
+
+header h2 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 2.25em;
+  margin-top: -10px;
 }
 
 header h6 {
-  float: left;
-  margin: auto;
+  font-family: 'Play', sans-serif;
+  margin-top: -35px;
 }
 
-header nav ul {
-  list-style-type: none;
-  display: inline;
+#iconContainer {
+  width: 30%;
   float: right;
+  padding-top: 10px;
 }
 
-header nav ul {
-  margin-top: -50px;  
+.icon {
+  float: right;
+  padding: 1px;
 }
 
-header nav ul li {
-  list-style-type: none;
-  display: inline;
+.iconLeft {
+  padding-left: 10px;
 }
 
-header hr {
+main hr {
   height: 6px;
   background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
   border: 0;
   margin-top: 30px;
+} 
+
+#mainHeaderText {
+  float: left;
+  padding-top: 30px;
+}
+
+main h1 {
+  font-family: 'Play', sans-serif;
+}
+
+#mainHeaderText h4 {
+  font-family: 'Play', sans-serif;
+  margin-top: -30px;
+}
+
+#print {
+  display: inline-block;
+  float: right;
+  padding-top: 80px;
+}
+
+#print h4 {
+  font-family: 'Roboto', sans-serif;
+  float: right;  
+  margin-top: -5px;
+}
+
+#print img {
+  display: inline;
+  float: right;
+}
+
+main {
+  margin-top: 90px;
 }
 
 main img {
@@ -56,31 +90,69 @@ main img {
   align-content: center;
 }
 
-main {
-  margin-top: 50px;
+main p {
+  text-indent: 30px;
+  font-family: 'Libre Baskerville', serif;
 }
 
-main h1 {
-  font-family: 'Anton', sans-serif;
-}
-
-main h5 {
-  font-family: 'Roboto', sans-serif;
+#container {
+  background-image: url("../img/list-bg.png");
+  columns: 2;
+  width: 900px;
 }
 
 main li {
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.5em;
 }
 
-footer hr {
-  height: 6px;
-  background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
-  border: 0;
-  margin-top: 30px;
-} 
+footer {
+  padding-top: 50px;
+}
+
+footer img {
+  margin-top: -30px;
+  float:left;
+  display: inline;
+}
+
+#footerText {
+  margin-top: -30px;
+  float: left;
+  padding-left: 20px;
+  width: 70%;
+  font-family: 'Libre Baskerville', serif;
+}
+
+#footerText h3 {
+  margin-top: -5px;
+  font-weight: bolder;
+}
 
 button {
+  margin-top: -20px;
   float: right;
   color: white;
-  background-color: red;
+  padding: 20px;
+  background-color: salmon;
+  font-size: 1em;
+}
+
+#copyRight {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100% ;
+  text-align: center;
+  display: inline-block;
+
+}
+
+#copyRight img {
+  display: block;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+#copyRight p {
+  margin: 0;
 }
