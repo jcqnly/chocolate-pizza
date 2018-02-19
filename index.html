@@ -5,37 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Anton|Pacifico|Roboto|Shadows+Into+Light" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Patrick+Hand|Play|Yellowtail" rel="stylesheet">
   <title>Chocolate Pizza</title>
 </head>
 <body>
   <header>
     <img src = "img/logo.png" alt = "logo" title = "logo" /> 
-    <h2>Delicious</h2>
-    <h6>THE BEST FOOD BLOG ON THE WEB</h6>
-    <nav>
-      <ul>
-        <li><a href = "#"><img src = "img/fb-icon.png" alt = "facebook" title = "facebook"/></a></li>
-        <li><a href = "#"><img src = "img/twit-icon.png" alt = "twitter" title = "twitter"/></a></li>
-        <li><a href = "#"><img src = "img/gp-icon.png" alt = "google plus" title = "google plus"/></a></li>
-        <li><a href = "#"><img src = "img/insta-icon.png" alt = "instagram" title = "instagram"/></a></li>
-        <li><a href = "#"><img src = "img/flic-icon.png" alt = "flickr" title = "flickr"/></a></li>
-        <li><a href = "#"><img src = "img/pint-icon.png" alt = "pinterest" title = "pinterest"/></a></li>
-        <li><a href = "#"><img src = "img/rss-icon.png" alt = "RSS Feed" title = "RSS Feed"/></a></li>
-        <li><a href = "#"><img src = "img/mail-icon.png" alt = "mail" title = "mail"/></a></li>
-      </ul>
+    <div id = "headerText">
+      <h2>Delicious</h2>
+      <h6>THE BEST FOOD BLOG ON THE WEB</h6>
+    </div>
+    <nav id = "iconContainer">
+      <a href = "#"><img src = "img/mail-icon.png" alt = "mail" title = "mail" class = "icon"/></a>
+      <a href = "#"><img src = "img/rss-icon.png" alt = "RSS Feed" title = "RSS Feed" class = "icon iconLeft"/></a>
+      <a href = "#"><img src = "img/pint-icon.png" alt = "pinterest" title = "pinterest" class = "icon"/></a>
+      <a href = "#"><img src = "img/flic-icon.png" alt = "flickr" title = "flickr" class = "icon"/></a>
+      <a href = "#"><img src = "img/insta-icon.png" alt = "instagram" title = "instagram" class = "icon"/></a>
+      <a href = "#"><img src = "img/gp-icon.png" alt = "google plus" title = "google plus" class = "icon"/></a>
+      <a href = "#"><img src = "img/twit-icon.png" alt = "twitter" title = "twitter" class = "icon"/></a>
+      <a href = "#"><img src = "img/fb-icon.png" alt = "facebook" title = "facebook" class = "icon"/></a>
     </nav>
-    <hr>
   </header>
-
+  
   <main>
-    <h1>Chocolate Pizza</h1>
-    <h5>POSTED ON 15 DEC 2013 / DESSERTS</h5>
-    <!-- small photo of printer  -->
-    <img src = "img/print-icon.png" alt="click here to print"/>
-    <h5>PRINT</h5>
-     <!-- hero image  -->
-    <img src = "img/choco-pizza.png" alt="Photo of a chocolate pizza"/>
+  <hr />
+    <div id = "mainHeaderText">
+      <h1>Chocolate Pizza</h1>
+      <h4>POSTED ON 15 DEC 2013 / DESSERTS</h4>
+    </div>
+
+    <div id = "print">
+      <h4>PRINT</h4>
+      <img src = "img/print-icon.png" alt="click here to print" title = "click here to print"/>
+    </div>
+
+    <img src = "img/choco-pizza.png" alt="Photo of a chocolate pizza" title = "Photo of a chocolate pizza"/>
     <p>
       For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set asiade and let cool completely.
     </p>
@@ -65,17 +69,30 @@
         <li>1 cup honey roasted pecans, roughly chopped</li>
       </ul>
     </div>
-
+    <hr />
   </main>
 
   <footer>
-    <hr />
+    
     <img src = "img/van-pic.png" alt = "protrait of Vanessa Steveson" title = "protrait of Vanessa Steveson" />
-    <h2>Vanessa Stevenson</h2>
-    <h3>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</h3>
+    <div id = "footerText">
+      <h3>Vanessa Stevenson</h2>
+      <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+    </div>
     <button>SHARE RECIPE</button>
-    <img src = "img/small-logo.png" alt = "small logo" title = "small logo" />
+    
+    
   </footer>
+  <div id = "copyRight">
+    <hr />
+    <img src = "img/small-logo.png" alt = "small logo" title = "small logo" class = "center" />
+    <p>
+      Delicious © 2013 ⦁ All Rights Reserved.
+    </p>
+    <p>
+      Proudly published with Ghost.
+    </p>
+  </div>
   
 </body>
 </html>
